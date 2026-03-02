@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Case de Capacitação: Front-end (Semana 3) - Meta Consultoria
 
-## Getting Started
+Este repositório contém a estrutura inicial para a primeira parte do case final de desenvolvimento de sites da Meta Consultoria. O foco desta etapa é a migração para o Next.js 15 e a organização modular do projeto.
 
-First, run the development server:
+## Objetivo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O objetivo deste case é capacitar o consultor na utilização do Next.js 15, integrando componentes do Shadcn/ui e aplicando conceitos de Server Side Rendering (SSR).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* Next.js 15 (App Router)
+* React 19
+* Tailwind CSS v4
+* Shadcn/ui
+* Lucide React (Iconografia)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Instruções de Configuração
 
-## Learn More
+1. Clone o repositório em sua máquina local.
+2. Execute o comando npm install para instalar as dependências.
+3. Utilize npm run dev para iniciar o ambiente de desenvolvimento.
 
-To learn more about Next.js, take a look at the following resources:
+## Tarefas do Case
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+As tarefas a seguir devem ser executadas seguindo as boas práticas de desenvolvimento apresentadas nas aulas.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 1. Componentização do Footer
+O rodapé do site encontra-se atualmente codificado diretamente no arquivo page.tsx.
+* Tarefa: Criar um componente isolado para o Footer em src/components/footer.tsx.
+* Requisito: O componente deve ser importado e utilizado de forma global ou na página principal, mantendo a consistência visual.
 
-## Deploy on Vercel
+### 2. Criação de Páginas de Serviço
+O site deve possuir páginas detalhadas para cada um dos três serviços listados na Home: Gestão de Negócios, Otimização de Processos e Planejamento Financeiro.
+* Tarefa: Implementar rotas que permitam acessar os detalhes de cada serviço.
+* Requisito: Cada página deve conter o Header, o Footer, uma descrição técnica aprofundada e ao menos uma imagem ilustrativa.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Material de Apoio
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Aulas Recomendadas (Udemy)
+Para a execução deste case, é fundamental assistir às aulas do módulo de Next.js (do vídeo 100 ao 140), com atenção especial aos seguintes tópicos:
+* Server vs Client Components (Aula 106).
+* Estrutura de layout e metadata (Aula 127).
+* Roteamento dinâmico (Aula 130).
+* Geração de metadados dinâmicos (Aula 133).
+
+### Links Úteis
+* Introdução ao Next.js: https://www.youtube.com/watch?v=QsSUbuYeEFk
+* Documentação Tailwind CSS: https://tailwindcss.com
+* Documentação Shadcn/ui: https://ui.shadcn.com/docs/cli
+
+## Prazo e Entrega
+A entrega deve ser realizada em uma semana através do envio do link do repositório no GitHub para o coordenador de tecnologia e desenvolvimento da empresa júnior meta consultoria. A segunda parte deste case abordará otimizações de SEO e publicação em ambiente de produção.
