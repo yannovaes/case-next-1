@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# vercel
+.vercel
+
+# ESlint cache
+.eslintcache
+
+# Turbo cache (caso usem turbopack)
+.turbo
+
+# Local Netlify folder
+.netlify
